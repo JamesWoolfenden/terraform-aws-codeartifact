@@ -22,3 +22,5 @@ lambda
 .terraform.tfstate.lock.info
 .terraform.lock.hcl
 *.log
+tf.json
+tf.plan
