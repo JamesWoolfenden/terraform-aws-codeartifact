@@ -33,9 +33,6 @@ module "codeartifact" {
   source        = "JamesWoolfenden/codeartifact/aws"
   version       = "0.0.1"
   common_tags   = var.common_tags
-  subnet_ids    = [element(tolist(data.aws_subnet_ids.private.ids), 0)]
-  cluster       = local.config
-  allowed_range = module.ip.cidr
 }
 ```
 
@@ -96,7 +93,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright � 2019-2021 James Woolfenden
+Copyright � 2021 James Woolfenden
 
 ## License
 
