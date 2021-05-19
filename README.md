@@ -45,32 +45,32 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [aws_codeartifact_domain](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain) |
-| [aws_codeartifact_domain_permissions_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain_permissions_policy) |
-| [aws_codeartifact_repository](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository) |
-| [aws_codeartifact_repository_permissions_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository_permissions_policy) |
+| Name | Type |
+|------|------|
+| [aws_codeartifact_domain.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain) | resource |
+| [aws_codeartifact_domain_permissions_policy.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain_permissions_policy) | resource |
+| [aws_codeartifact_repository.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository) | resource |
+| [aws_codeartifact_repository_permissions_policy.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository_permissions_policy) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| domain | n/a | `string` | `"freebeer"` | no |
-| repository | n/a | `string` | `"freebeer"` | no |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
+| <a name="input_domain"></a> [domain](#input\_domain) | n/a | `string` | `"freebeer"` | no |
+| <a name="input_repository"></a> [repository](#input\_repository) | n/a | `string` | `"freebeer"` | no |
 
 ## Outputs
 
-No output.
+No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
