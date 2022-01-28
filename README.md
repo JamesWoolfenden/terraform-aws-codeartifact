@@ -37,15 +37,16 @@ module "codeartifact" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| Name                                             | Version |
+| ------------------------------------------------ | ------- |
+| <a name="provider_aws"></a> [aws](#provider_aws) | n/a     |
 
 ## Modules
 
@@ -53,24 +54,25 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_codeartifact_domain.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain) | resource |
-| [aws_codeartifact_domain_permissions_policy.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain_permissions_policy) | resource |
-| [aws_codeartifact_repository.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository) | resource |
+| Name                                                                                                                                                                              | Type     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [aws_codeartifact_domain.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain)                                               | resource |
+| [aws_codeartifact_domain_permissions_policy.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_domain_permissions_policy)         | resource |
+| [aws_codeartifact_repository.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository)                                       | resource |
 | [aws_codeartifact_repository_permissions_policy.examplea](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codeartifact_repository_permissions_policy) | resource |
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| <a name="input_domain"></a> [domain](#input\_domain) | n/a | `string` | `"freebeer"` | no |
-| <a name="input_repository"></a> [repository](#input\_repository) | n/a | `string` | `"freebeer"` | no |
+| Name                                                               | Description                                        | Type       | Default      | Required |
+| ------------------------------------------------------------------ | -------------------------------------------------- | ---------- | ------------ | :------: |
+| <a name="input_common_tags"></a> [common_tags](#input_common_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a          |   yes    |
+| <a name="input_domain"></a> [domain](#input_domain)                | n/a                                                | `string`   | `"freebeer"` |    no    |
+| <a name="input_repository"></a> [repository](#input_repository)    | n/a                                                | `string`   | `"freebeer"` |    no    |
 
 ## Outputs
 
 No outputs.
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
@@ -93,7 +95,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2021 James Woolfenden
+Copyright © 2021-2022 James Woolfenden
 
 ## License
 
