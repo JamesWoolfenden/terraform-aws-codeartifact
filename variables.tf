@@ -12,3 +12,7 @@ variable "domain" {
   type    = string
   default = "freebeer"
 }
+
+variable "kms_key" {
+
+}
