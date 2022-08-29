@@ -19,14 +19,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 This is just a very basic example.
 
-```cli
-$ checkov -d . --external-checks-dir checkov/
-...
-```
-
-![alt text](./diagram/codeartifact.png)
-
-Include **module.codeartifact.tf** this repository as a module in your existing terraform code:
+Include **module.codeartifact.tf** this repository as a module in your existing Terraform code:
 
 ```terraform
 module "codeartifact" {
