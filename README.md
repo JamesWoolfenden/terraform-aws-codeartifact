@@ -130,11 +130,3 @@ under the License.
 
 [jameswoolfenden_homepage]: https://github.com/jameswoolfenden
 [jameswoolfenden_avatar]: https://github.com/jameswoolfenden.png?size=150
-[github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
-[twitter]: https://twitter.com/JimWoolfenden
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-codeartifact&url=https://github.com/JamesWoolfenden/terraform-aws-codeartifact
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-codeartifact&url=https://github.com/JamesWoolfenden/terraform-aws-codeartifact
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-aws-codeartifact
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-aws-codeartifact
-[share_email]: mailto:?subject=terraform-aws-codeartifact&body=https://github.com/JamesWoolfenden/terraform-aws-codeartifact
