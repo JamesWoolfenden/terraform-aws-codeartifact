@@ -74,6 +74,11 @@ No modules.
 No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
+## Policy Requirement
+
+<!-- BEGINNING OF PRE-COMMIT-PIKE DOCS HOOK -->
+<!-- END OF PRE-COMMIT-PIKE DOCS HOOK -->
+
 ## Related Projects
 
 Check out these related projects.
