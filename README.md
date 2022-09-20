@@ -74,11 +74,57 @@ No modules.
 No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## Policy
 
 This is the policy required to build this project:
 
 <!-- BEGINNING OF PRE-COMMIT-PIKE DOCS HOOK -->
+The Policy required is:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "codeartifact:CreateDomain",
+                "codeartifact:CreateRepository",
+                "codeartifact:DeleteDomain",
+                "codeartifact:DeleteDomainPermissionsPolicy",
+                "codeartifact:DeleteRepository",
+                "codeartifact:DeleteRepositoryPermissionsPolicy",
+                "codeartifact:DescribeDomain",
+                "codeartifact:DescribeRepository",
+                "codeartifact:GetDomainPermissionsPolicy",
+                "codeartifact:GetRepositoryPermissionsPolicy",
+                "codeartifact:ListTagsForResource",
+                "codeartifact:PutDomainPermissionsPolicy",
+                "codeartifact:PutRepositoryPermissionsPolicy",
+                "codeartifact:TagResource",
+                "codeartifact:UntagResource",
+                "codeartifact:UpdateRepository"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "kms:CreateKey",
+                "kms:DescribeKey",
+                "kms:EnableKeyRotation",
+                "kms:GetKeyPolicy",
+                "kms:GetKeyRotationStatus",
+                "kms:ListResourceTags",
+                "kms:ScheduleKeyDeletion"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+```
 <!-- END OF PRE-COMMIT-PIKE DOCS HOOK -->
 
 ## Related Projects
