@@ -110,7 +110,9 @@ resource "aws_iam_policy" "terraform_pike" {
                 "codeartifact:UntagResource",
                 "codeartifact:UpdateRepository"
             ],
-            "Resource": "*"
+            "Resource": [
+                "*"
+            ]
         }
     ]
 })
