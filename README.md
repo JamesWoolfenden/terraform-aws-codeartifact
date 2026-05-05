@@ -1,6 +1,6 @@
 # terraform-aws-codeartifact
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-codeartifact/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-codeartifact)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-codeartifact/workflows/Verify/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-aws-codeartifact)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-codeartifact.svg)](https://github.com/JamesWoolfenden/terraform-aws-codeartifact/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-aws-codeartifact.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-aws-codeartifact/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
